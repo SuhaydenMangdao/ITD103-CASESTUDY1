@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Custom CSS */
+.custom-select {
+  width: 200px; /* Set the desired width */
+}
+
+.content {
+  height: 110vh;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Register Form*/
+.register-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+/* Login form*/
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+  /* Transaction page*/
+.filters{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow: 0 0 3px gray;
+}
+  /* end of Transaction page*/
+
+/* antd icons*/
+
+  .switch-icons{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 15px;
+  }
+
+  .anticon {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .active-icon {
+   color: #4287f5;
+  }
+
+  .inactive-icon {
+    color: gray;
+   }
+/* end of antd icons*/
+
+/* Header-text */
+.expense-ease {
+  color: white; /* Set the text color to white */
+}
+.hello-user {
+  color: white; /* Set the text color to white */
+}
+/* End of header-text */
+   
