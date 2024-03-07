@@ -25,12 +25,14 @@ app.use("/api/v1/users", require("./routes/userRoute"));
 //transaction routes
 app.use("/api/v1/transactions", require("./routes/transactionRoutes"));
 
-//static files
+
+//static files copy (techinfo)
 app.use(express.static(path.join(__dirname, "./client/build")));
 
 app.get("*", function (req, res) {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
+
 
 //port
 const PORT = 8080 || process.env.PORT;
